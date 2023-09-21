@@ -1,0 +1,280 @@
+{
+    "securities": {
+        "metadata": {
+            "id": {
+                "type": "int32"
+            },
+            "secid": {
+                "type": "string",
+                "bytes": 51,
+                "max_size": 0
+            },
+            "shortname": {
+                "type": "string",
+                "bytes": 189,
+                "max_size": 0
+            },
+            "regnumber": {
+                "type": "string",
+                "bytes": 189,
+                "max_size": 0
+            },
+            "name": {
+                "type": "string",
+                "bytes": 765,
+                "max_size": 0
+            },
+            "isin": {
+                "type": "string",
+                "bytes": 765,
+                "max_size": 0
+            },
+            "is_traded": {
+                "type": "int32"
+            },
+            "emitent_id": {
+                "type": "int32"
+            },
+            "emitent_title": {
+                "type": "string",
+                "bytes": 765,
+                "max_size": 0
+            },
+            "emitent_inn": {
+                "type": "string",
+                "bytes": 30,
+                "max_size": 0
+            },
+            "emitent_okpo": {
+                "type": "string",
+                "bytes": 24,
+                "max_size": 0
+            },
+            "gosreg": {
+                "type": "string",
+                "bytes": 189,
+                "max_size": 0
+            },
+            "type": {
+                "type": "string",
+                "bytes": 93,
+                "max_size": 0
+            },
+            "group": {
+                "type": "string",
+                "bytes": 93,
+                "max_size": 0
+            },
+            "primary_boardid": {
+                "type": "string",
+                "bytes": 12,
+                "max_size": 0
+            },
+            "marketprice_boardid": {
+                "type": "string",
+                "bytes": 12,
+                "max_size": 0
+            }
+        },
+        "columns": [
+            "id",
+            "secid",
+            "shortname",
+            "regnumber",
+            "name",
+            "isin",
+            "is_traded",
+            "emitent_id",
+            "emitent_title",
+            "emitent_inn",
+            "emitent_okpo",
+            "gosreg",
+            "type",
+            "group",
+            "primary_boardid",
+            "marketprice_boardid"
+        ],
+        "data": [
+            [
+                414079163,
+                "AMUNIBB2DER6",
+                "UBANK02/24",
+                null,
+                "UNIBANK OJSC Series 1 21",
+                "AMUNIBB2DER6",
+                1,
+                1375007,
+                "\"UNIBANK\" OPENED JOINT STOCK COMPANY",
+                "0000004902",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "TQOD",
+                "TQOD"
+            ],
+            [
+                415568339,
+                "AT0000A2UF10",
+                "Raiff BIAG",
+                null,
+                "Raiffeisen Bank Int AG",
+                "AT0000A2UF10",
+                1,
+                1376877,
+                "Raiffeisen Centrobank AG",
+                "0000005403",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "TQUD",
+                "TQUD"
+            ],
+            [
+                146181,
+                "CH0248531110",
+                "VTB-24 CHF",
+                null,
+                "VTB CAPITAL S.A. 24 CHF",
+                "CH0248531110",
+                1,
+                68213,
+                "VTB Capital S.A",
+                "0000097053",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "RPMO",
+                null
+            ],
+            [
+                138904,
+                "CH0379268748",
+                "RZD-23 CHF",
+                null,
+                "RZD Capital PLC 23 CHF",
+                "CH0379268748",
+                1,
+                68224,
+                "RZD Capital plc",
+                "0000003850",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "RPMO",
+                null
+            ],
+            [
+                412138675,
+                "CH0419041618",
+                "RZD-25 CHF",
+                null,
+                "RZD CAPITAL PLC 0.898 03/10/25",
+                "CH0419041618",
+                1,
+                68224,
+                "RZD Capital plc",
+                "0000003850",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "RPMO",
+                null
+            ],
+            [
+                411609279,
+                "CH0419041634",
+                "RZD-28 CHF",
+                null,
+                "RZD CAPITAL PLC 03/04/28",
+                "CH0419041634",
+                1,
+                68224,
+                "RZD Capital plc",
+                "0000003850",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "RPMO",
+                null
+            ],
+            [
+                414554377,
+                "CH1100259816",
+                "RZD-p CHF",
+                null,
+                "RZD Capital PLC VAR UNDT",
+                "CH1100259816",
+                1,
+                68224,
+                "RZD Capital plc",
+                "0000003850",
+                null,
+                null,
+                "corporate_bond",
+                "stock_bonds",
+                "RPMO",
+                null
+            ],
+            [
+                6734,
+                "RU000A0JQ5C5",
+                "\u041d\u041f\u0424 01",
+                "4-01-10013-R",
+                "\"\u041d\u041f\u0424\" \u041e\u041e\u041e \u043e\u0431.\u0441\u0435\u0440. 01",
+                "RU000A0JQ5C5",
+                1,
+                2230,
+                "\u041e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0441 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0439 \u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e \"\u041d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0441\u0442\u044c \u043f\u0435\u043d\u0441\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0444\u043e\u043d\u0434\u0430\"",
+                "6658196868",
+                "75752261",
+                "4-01-10013-R",
+                "corporate_bond",
+                "stock_bonds",
+                "TQIR",
+                "TQIR"
+            ],
+            [
+                6872,
+                "RU000A0JQ7Z2",
+                "\u0420\u0416\u0414-19 \u043e\u0431\u043b",
+                "4-19-65045-D",
+                "\"\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0435 \u0416\u0414\" \u041e\u0410\u041e 19 \u043e\u0431\u043b.",
+                "RU000A0JQ7Z2",
+                1,
+                1487,
+                "\u043e\u0442\u043a\u0440\u044b\u0442\u043e\u0435 \u0430\u043a\u0446\u0438\u043e\u043d\u0435\u0440\u043d\u043e\u0435 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \"\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0435 \u0436\u0435\u043b\u0435\u0437\u043d\u044b\u0435 \u0434\u043e\u0440\u043e\u0433\u0438\"",
+                "7708503727",
+                "00083262",
+                "4-19-65045-D",
+                "corporate_bond",
+                "stock_bonds",
+                "TQCB",
+                "TQCB"
+            ],
+            [
+                6909,
+                "RU000A0JQAM6",
+                "\u0414\u041e\u041c.\u0420\u042415\u043e\u0431",
+                "4-15-00739-A",
+                "\u0414\u041e\u041c.\u0420\u0424 (\u0410\u041e) \u043e\u0431\u043b. \u0441\u0435\u0440. \u041015",
+                "RU000A0JQAM6",
+                1,
+                1380,
+                "\u0410\u043a\u0446\u0438\u043e\u043d\u0435\u0440\u043d\u043e\u0435 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \"\u0414\u041e\u041c.\u0420\u0424\"",
+                "7729355614",
+                "47247771",
+                "4-15-00739-A",
+                "corporate_bond",
+                "stock_bonds",
+                "TQCB",
+                "TQCB"
+            ]
+        ]
+    }
+}
